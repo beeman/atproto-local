@@ -1,0 +1,15 @@
+{
+  "name": "atproto-local",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "docker:build": "docker build . -t ghcr.io/beeman/atproto-local",
+    "docker:push": "docker push ghcr.io/beeman/atproto-local",
+    "docker:run": "docker run -it --rm --name atproto-local -p 12583:2583 ghcr.io/beeman/atproto-local",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "Bram Borggreve",
+  "license": "ISC"
+}

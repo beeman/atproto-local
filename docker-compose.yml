@@ -1,0 +1,6 @@
+version: '3'
+services:
+  atproto-local:
+    image: ghcr.io/beeman/atproto-local
+    ports:
+      - "12583:2583"
